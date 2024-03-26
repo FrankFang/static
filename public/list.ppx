@@ -65,6 +65,7 @@ WeChat;
 *.vercel.com
 *.dev
 *.io
+*.cc
             </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
