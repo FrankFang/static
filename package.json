@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "http-server public",
-    "deploy": "git add .; git commit -m 'update'; git push;"
+    "deploy": "git add .; git commit -m 'update'; git push; open https://vercel.com/ffonlineoutlookcoms-projects/static/deployments ;"
   },
   "devDependencies": {
     "@types/bun": "1.0.10"
