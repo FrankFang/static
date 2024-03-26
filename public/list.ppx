@@ -71,7 +71,7 @@ WeChat;
         </Rule>
         <Rule enabled="true">
             <Name>Default</Name>
-            <Action type="Proxy">100</Action>
+            <Action type="Direct">100</Action>
         </Rule>
     </RuleList>
 </ProxifierProfile>
