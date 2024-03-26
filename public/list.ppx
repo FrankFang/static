@@ -46,23 +46,23 @@
         <Rule enabled="true">
             <Name>oversea</Name>
             <Targets>
-                *.jetbrains.com;
-                *.google.com; 
-                *.googleapis.com; 
-                *.x.com; 
-                *.twitter.com;
-                *.org;
-                *.top;
-                *.facebook.com
-                *.vercel.com
+*.jetbrains.com;
+*.google.com; 
+*.googleapis.com; 
+*.x.com; 
+*.twitter.com;
+*.org;
+*.top;
+*.facebook.com
+*.vercel.com
             </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
             <Name>mainland</Name>
             <Targets>
-                *.yinxiang.com
-                *.cn
+*.yinxiang.com
+*.cn
             </Targets>
             <Action type="Direct">100</Action>
         </Rule>
