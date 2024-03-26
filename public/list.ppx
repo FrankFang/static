@@ -44,6 +44,14 @@ WeChat;
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
+            <Name>mainland</Name>
+            <Targets>
+*.yinxiang.com
+*.cn
+            </Targets>
+            <Action type="Direct">100</Action>
+        </Rule>
+        <Rule enabled="true">
             <Name>oversea</Name>
             <Targets>
 *.jetbrains.com;
@@ -59,14 +67,6 @@ WeChat;
 *.io
             </Targets>
             <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>mainland</Name>
-            <Targets>
-*.yinxiang.com
-*.cn
-            </Targets>
-            <Action type="Direct">200</Action>
         </Rule>
         <Rule enabled="true">
             <Name>Default</Name>
