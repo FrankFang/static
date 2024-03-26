@@ -32,9 +32,9 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>Mainland App</Name>
+            <Name>Mainland App [mac]</Name>
             <Applications>
-              WeChat;
+WeChat;
             </Applications>
             <Action type="Direct"/>
         </Rule>
@@ -55,6 +55,8 @@
 *.top;
 *.facebook.com
 *.vercel.com
+*.dev
+*.io
             </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
@@ -64,7 +66,7 @@
 *.yinxiang.com
 *.cn
             </Targets>
-            <Action type="Direct">100</Action>
+            <Action type="Direct">200</Action>
         </Rule>
         <Rule enabled="true">
             <Name>Default</Name>

@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "http-server public"
+    "start": "http-server public",
+    "deploy": "git add .; git commit -m 'update'; git push;"
   },
   "devDependencies": {
     "@types/bun": "1.0.10"
