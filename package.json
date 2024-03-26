@@ -1,0 +1,17 @@
+{
+  "name": "static",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "http-server"
+  },
+  "devDependencies": {
+    "@types/bun": "1.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "5.4.3"
+  },
+  "dependencies": {
+    "http-server": "14.1.1"
+  }
+}
